@@ -1,0 +1,72 @@
+/*coding for the navigation bar start here*/
+.computer-navigation-wrapper,.sm-navigation-bar,.navigation-list{
+    background-color:darkblue;
+}
+.computer-navigation-bar,.sm-navigation-bar{
+    height:60px;
+}
+.computer-li,.social-media-links{
+    margin-left:30px;
+}
+.phone-li{
+    margin-top:20px;
+}
+.social-links{
+    font-size:20px;
+}
+.fa-bars{
+    font-size:20px;
+}
+.navigation-list{
+    position:absolute;
+    top:60px;
+    display:none;
+}
+/*coding for the navigation bar ended here*/
+
+/*coding for the background image wrapper start here*/
+.bg-image{
+    background:url("../images/4.jpeg") no-repeat center center;
+    height:400px;
+    background-size:100% 100%;
+}
+.mask{
+    background-color:rgb(20 18 18 / 65%);
+    height:400px;
+}
+@media screen and (max-width:1024px){
+    .mid-caption{
+        font-weight:bolder;
+        font-size:13px !important;
+    }
+    .card{
+        margin-top:13px;
+    }
+   
+    .card-text{
+        font-size:12px;
+        font-weight:bolder;
+    }
+}
+/*coding for the background image wrapper ended here*/
+
+
+/*coding for the offer section*/
+.card{
+    border-bottom:solid 10px darkblue;
+    border-right:solid 10px darkblue;
+    box-shadow: 0 0 7px 0 rgb(90 90 90 / 74%);
+}
+.card-text{
+    color:black;
+    font-weight:bold;
+}
+.card-title{
+    color:darkblue !important;
+}
+@media screen and (min-width:1196px) and (max-width:1400px){
+    .card{
+        height:250px;
+    }
+}
+/*coding for the offer section end here*/
