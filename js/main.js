@@ -6,6 +6,8 @@ function menuButton(){
   })
 }
 
+
+
 var i = 0;
 var welcome = " Welcome To Forex Guru trading institute"; 
 /* The text */
@@ -25,4 +27,5 @@ function midCaptionAnimation(){
   },2200)
 }
 menuButton();
+
 typeWriter();

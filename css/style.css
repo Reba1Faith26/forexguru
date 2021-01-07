@@ -1,3 +1,4 @@
+
 /*coding for the navigation bar start here*/
 .computer-navigation-wrapper,.sm-navigation-bar,.navigation-list{
     background-color:darkblue;
@@ -39,7 +40,7 @@
         font-weight:bolder;
         font-size:13px !important;
     }
-    .card{
+    .card-main{
         margin-top:13px;
     }
     .card-text{
@@ -59,16 +60,45 @@
     .footer-1{
         margin-top:30px;
     }
+    .card-extra2{
+        margin-top:20px;
+    }
 }
 /*coding for the background image wrapper ended here*/
 
-@media screen (min-width:767px) and (max-width:1185px){
+/*coding for the about section start here*/
+.about-card{
+    background-color:#F5F5F5;
+}
+
+
+@media screen and (min-width:767px){
+    .about-wrapper{
+        margin-top:40px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1195px){
+    .about-caption{
+        font-size:26px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .about-caption{
+        font-size:40px;
+    }
+}
+/*coding for the about section start here*/
+
+
+@media screen and (min-width:767px) and (max-width:1185px){
     .card-extra{
         height:380px !important;
     }
 }
 /*coding for the offer section*/
-.card{
+.card-main,.card-extra{
     border-bottom:solid 10px darkblue;
     border-right:solid 10px darkblue;
     box-shadow: 0 0 7px 0 rgb(90 90 90 / 74%);
@@ -80,13 +110,14 @@
 .card-title{
     color:darkblue !important;
 }
-@media screen and (min-width:1196px) and (max-width:1400px){
-    
+@media screen and (min-width:768px) and (max-width:991px){
+    .card-main{
+        height:350px;
+    }
 }
-
-@media screen and (min-width:1196px) and (max-width:1400px){
-    .card{
-        height:250px;
+@media screen and (min-width:992px){
+    .card-main{
+        max-height:250px;
     }
 }
 /*coding for the offer section end here*/
